@@ -10,9 +10,9 @@ services:
       - /app/node_modules
     environment: 
       - NODE_ENV=development
-      - MONGO_USER=mugen
-      - MONGO_PASSWORD=!Mu93n
-      - MONGO_IP=mongo
-      - MONGO_PORT=27017
+      # - MONGO_USER=mugen
+      # - MONGO_PASSWORD=!Mu93n
+      # - MONGO_IP=mongo
+      # - MONGO_PORT=27017
     command: npm run dev
   
